@@ -8,6 +8,7 @@ class User < ApplicationRecord
                         uniqueness: {case_sensitive: false} )  #unique, case_insensitive
     has_secure_password
     validates(:password, presence: true,
-                         length: {minimum: 6})
+                         length: {minimum: 6},
+                         allow_nil: true)
 end
  
