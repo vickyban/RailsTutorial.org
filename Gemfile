@@ -58,3 +58,5 @@ gem 'hirb'
 group :production do
   gem 'pg' , '0.20.0'         # at PostgreSQl gem to use Heroku
 end
+
+gem 'jquery-rails'
