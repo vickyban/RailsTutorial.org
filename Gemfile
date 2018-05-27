@@ -56,5 +56,5 @@ gem 'rails-controller-testing'
 gem 'hirb'
 
 group :production do
-  gem 'pg'          # at PostgreSQl gem to use Heroku
+  gem 'pg' , '0.20.0'         # at PostgreSQl gem to use Heroku
 end
