@@ -60,3 +60,8 @@ group :production do
 end
 
 gem 'jquery-rails'
+
+gem 'faker', '1.7.3'  #make sample users
+
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
