@@ -57,6 +57,7 @@ gem 'hirb'
 
 group :production do
   gem 'pg' , '0.20.0'         # at PostgreSQl gem to use Heroku
+  gem 'fog', '1.42'
 end
 
 gem 'jquery-rails'
@@ -65,3 +66,7 @@ gem 'faker', '1.7.3'  #make sample users
 
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
+
+# handle uploaded image 
+gem 'carrierwave',             '1.2.2'
+gem 'mini_magick',             '4.7.0'

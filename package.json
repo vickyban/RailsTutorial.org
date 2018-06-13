@@ -1,5 +1,7 @@
 {
   "name": "sample",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "imagemagick": "^0.1.3"
+  }
 }
